@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Abdul Wasay Khan",
+  title: "Hi all, I'm Abdul",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Engineering Manager 🚀 based in Berlin with over 12 years of experience in software design, development, and integration, I specialize in cloud, web, and mobile lifecycles. I have proven expertise in building and leading high-performing Agile teams, driving innovation, and delivering scalable solutions."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1JgPfDM0N33qM0obx6qDozJ4iR5uaT7id/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/abdul-wk",
+  linkedin: "https://www.linkedin.com/in/abdul-wasay-khan-70b50070/",
+  gmail: "wasaykhan.89@gmail.com",
+  // gitlab: "https://gitlab.com/saadpasta",
+   facebook: "https://www.facebook.com/abdul.wasay.35",
+   medium: "https://medium.com/@wasaykhan.89",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +49,36 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Engineering Manager with a passion for building high-performing teams and scalable solutions, plus expertise in a diverse tech stack.",
+
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Lead and mentor cross-functional engineering teams to deliver impactful software solutions."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Drive the design, development, and deployment of scalable and efficient applications across cloud, web, and mobile platforms."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Foster collaboration and promote best practices in Agile environments to ensure high-quality, on-time delivery."
+    ),
+    emoji(
+        "⚡ Architect and implement technical solutions that align with business goals and customer needs."
+    ),
+    emoji(
+        "⚡ Oversee integration of third-party services like Stripe, PayPal, and other cloud platforms to enhance functionality and performance."
+    ),
+    emoji(
+          "⚡ Build engineering teams from scratch, hiring top talent and cultivating a culture of innovation and accountability."
+    ),
+    emoji(
+        "⚡ Build engineering teams from scratch, hiring top talent and cultivating a culture of innovation and accountability."
+    ),
+    emoji(
+        "⚡ Partner with business leaders to identify opportunities where technology can drive revenue growth and streamline operations."
+    ),
+    emoji(
+        "⚡ Provide regular feedback and mentorship to engineers, helping them grow in their careers and improve their technical expertise."
+    ),
+    emoji(
+        "⚡ Establish clear technical roadmaps and align them with long-term business objectives to ensure sustainable growth."
     )
   ],
 
@@ -65,19 +87,27 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "kotlin",
+      fontAwesomeClassname: "fas fa-code"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "JavaScript",
+      skillName: "groovy",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "javascript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
@@ -85,12 +115,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "android",
+      fontAwesomeClassname: "fab fa-android"
     },
     {
       skillName: "npm",
@@ -101,20 +127,20 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
+      skillName: "mongo",
+      fontAwesomeClassname: "fas fa-server"
+    },
+    {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "kubernetes",
+      fontAwesomeClassname: "fas fa-box"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +152,10 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "National University of Computer and Emerging Sciences",
+      logo: require("./assets/images/university.png"),
+      subHeader: "Bachelor of Computer Science",
+      duration: "2008 - 2012",
     }
   ]
 };
@@ -150,7 +163,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -174,29 +187,75 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Engineering Manager",
+      company: "Element Insurance AG - Berlin",
+      companylogo: require("./assets/images/Element.png"),
+      date: "Feb 2023 – Present",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Managing a team of 8 software engineers on the development of 3 different domains",
+        "Advocated for and implemented best practices such as event-driven architecture, ensuring scalable and\n" +
+        "maintainable solutions.",
+        "Automated the user flow, reducing operational manual efforts by 25%.",
+        "Collaborated with product managers, Principal Engineer, and other stakeholders to define priorities and\n" +
+        "deliver business-critical solutions.",
+        "Maintained a hands-on approach, diving into technical details when necessary to support the team in tackling\n" +
+        "challenges effectively."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Engineering Manager",
+      company: "Techelix",
+      companylogo: require("./assets/images/techelix.png"),
+      date: "April 2022 – Jan 2023",
+      descBullets:[
+          "Designed and implemented organizational structures, streamlining team workflows and reducing project\n" +
+          "delivery time by 25%.",
+          "Established engineering best practices, including agile methodologies, and CI/CD pipelines, improving team\n" +
+          "productivity by 30%.",
+          "Devised and enforced coding standards and documentation processes, enhancing code maintainability and\n" +
+          "reducing onboarding time for new hires by 50%.",
+          "Partnered with stakeholders to define technical priorities and align engineering goals with business\n" +
+          "objectives."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Principal Software Engineer",
+      company: "10Pearls",
+      companylogo: require("./assets/images/10p.png"),
+      date: "July 2021 – Jan 2023",
+      descBullets: [
+          "Led a team of 12 remote developers, ensuring timely delivery of high-quality solutions.",
+          "Planned system scalability to accommodate future demands",
+          "Scaled the product from supporting thousands to millions of users, ensuring performance, reliability, and\n" +
+          "scalability.",
+          "Maintained technical culture while working with multiple cross-functional teams.",
+          "Mentored senior engineers, fostering technical growth and preparing them for leadership roles to build a stronger engineering team."
+      ]
+    },
+    {
+      role: "Senior Software Engineer",
+      company: "10Pearls",
+      companylogo: require("./assets/images/10p.png"),
+      date: "Dec 2013 – Jun 2021",
+      descBullets: [
+        "Designed and developed scalable programming systems.",
+        "Conducted code reviews and trained junior developers.",
+        "Researched and recommended software development tools, enhancing team eﬃciency.",
+        "Maintained technical culture while working with multiple cross-functional teams.",
+        "Mentored senior engineers, fostering technical growth and preparing them for leadership roles to build a stronger engineering team."
+      ]
+    },
+    {
+      role: "Software Engineer",
+      company: "Doozie Labs",
+      companylogo: require("./assets/images/doozielabs_logo.png"),
+      date: "Jan 2013 – Dec 2013",
+      descBullets: [
+        "Conducted full life-cycle application development for web and mobile platforms.",
+        "Assisted teams with R&D tasks and technical challenges.",
+        "Implemented front-end graphical user interfaces to enhance user experience.",
+        "Developed and optimized backend APIs to ensure seamless integration and high performance."
+      ]
     }
   ]
 };
@@ -246,56 +305,17 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: emoji("Certifications 🏆 "),
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "AWS Certified Solutions Architect – Associate",
+      image: require("./assets/images/aws.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Verify",
+          url: "https://www.credly.com/badges/858c0441-e0c9-4349-9782-8c399287ec21"
         }
       ]
     }
@@ -308,20 +328,14 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "Some blogs I've written to share my journey, lessons, and tips in software development.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://medium.com/@wasaykhan.89/a-rare-kafka-use-case-how-it-could-have-saved-the-day-during-a-database-corruption-d38128c9b3e4",
+      title: "A Rare Kafka Use Case",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+          "How Kafka could have saved the day during a database corruption."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -343,7 +357,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +370,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -365,14 +379,14 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
+  number: "44545454",
   email_address: "saadpasta70@gmail.com"
 };
 
@@ -380,10 +394,10 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
