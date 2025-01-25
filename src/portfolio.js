@@ -187,8 +187,8 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Engineering Manager",
-      company: "Element Insurance AG - Berlin",
+      role: "Engineering Manager - Berlin",
+      company: "Element Insurance",
       companylogo: require("./assets/images/Element.png"),
       date: "Feb 2023 – Present",
       descBullets: [
