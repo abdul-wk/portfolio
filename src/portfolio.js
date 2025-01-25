@@ -271,34 +271,38 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
+      {
+      image: require("./assets/images/element_prog.png"),
+      projectName: "Insurance Accounting System",
+      projectDesc: "Led the development of a B2B2X platform enabling partners to offer white-label insurance products. Spearheaded the integration of an accounting system to manage all accounts and oversee the entire lifecycle of policies across multiple partners. Ensured regulatory compliance, and coordinated cross-functional teams to deliver scalable, secure solutions.",
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
+      image: require("./assets/images/element_prog.png"),
+      projectName: "Payments Integration",
+      projectDesc: "Oversee the integration of multiple payment providers, such as Stripe and PayPal, to support direct debit and SEPA payment transfers for insurance customers. Ensured a seamless, secure, and efficient payment experience, contributing to improved user satisfaction and operational scalability. Continuously optimized payment processes to enhance transaction reliability."
+    },
+    {
+      image: require("./assets/images/10p_exp.png"),
+      projectName: "Energy Solution",
+      projectDesc: "Built and led the development as a service provider for a web-based energy solution company that provided utilities to millions of underserved\n" +
+          "users. Created and scaled the engineering team from scratch, overseeing technical design, guiding development\n" +
+          "efforts, and ensuring the platform’s scalability, reliability, and accessibility to meet diverse user needs.",
+    },
+    {
+      image: require("./assets/images/dnslogo.png"),
+      projectName: "Domain Management System",
+      projectDesc: "Led the development of a web and mobile platform with advanced features, including IP filtering and cloud DNS integration. Directed the design of the technical architecture, guided the team through implementation, and ensured seamless on-premise deployment to enhance performance, reliability, and security. Worked closely with cross-functional teams to optimize system scalability and deliver a robust, future-proof solution tailored to business and user needs.",
+    },
+    {
+      image: require("./assets/images/health_Exp.png"),
+      projectName: "Health Care Solution",
+      projectDesc: "Created a healthcare platform that connects caregivers and healthcare professionals, enabling real-time communication, shared access to patient records, and efficient scheduling. The platform enhances collaboration, improves care coordination, and supports better patient outcomes. Integrated secure features to ensure data privacy and compliance with healthcare regulations, providing a reliable and scalable solution for the healthcare community.",
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section

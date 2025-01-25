@@ -11,7 +11,7 @@ import {
   blogSection,
   talkSection,
   achievementSection,
-  resumeSection
+  resumeSection, bigProjects
 } from "../../portfolio";
 
 function Header() {
@@ -53,7 +53,7 @@ function Header() {
           )}
           {viewOpenSource && (
             <li>
-              <a href="#opensource">Projects</a>
+              <a href="#projects">Projects</a>
             </li>
           )}
           {viewAchievement && (
