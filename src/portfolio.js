@@ -37,7 +37,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/abdul-wasay-khan-70b50070/",
   gmail: "wasaykhan.89@gmail.com",
   // gitlab: "https://gitlab.com/saadpasta",
-   facebook: "https://www.facebook.com/abdul.wasay.35",
+  // facebook: "https://www.facebook.com/abdul.wasay.35",
    medium: "https://medium.com/@wasaykhan.89",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
