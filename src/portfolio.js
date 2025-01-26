@@ -340,6 +340,18 @@ const blogSection = {
       title: "A Rare Kafka Use Case",
       description:
           "How Kafka could have saved the day during a database corruption."
+    },
+    {
+      url: "https://medium.com/@wasaykhan.89/debugging-low-memory-issues-in-an-ecs-fargate-service-a-step-by-step-guide-0f2ef59b258f",
+      title: "Debugging Low Memory Issues in ECS Fargate",
+      description:
+          "A Step-by-Step Guide on Exec into AWS ECS Fargate for Debugging Low-Memory Issues. "
+    },
+    {
+      url: "https://medium.com/@wasaykhan.89/how-we-cut-infrastructure-costs-by-31-and-increased-deployment-speed-with-ci-cd-pipelines-b936f5182236",
+      title: "Streamlining Deployments",
+      description:
+          "How We Cut Infrastructure Costs by 31 % and Increased Deployment Speed with CI/CD Pipelines."
     }
   ],
   display: true // Set false to hide this section, defaults to true
