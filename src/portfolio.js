@@ -375,7 +375,7 @@ const talkSection = {
     {
       title: "Accelerate",
       subtitle: "The science of lean software and devops",
-      slides_url: "https://bit.ly/saadpasta-slides"
+      slides_url: "https://www.amazon.de/-/en/Accelerate-Building-Performing-Technology-Organizations/dp/1942788339"
     },
     {
       title: "Effective Software EM",
