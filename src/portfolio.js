@@ -368,7 +368,7 @@ const blogSection = {
 const talkSection = {
   title: "Reading List",
   subtitle: emoji(
-    "Some great book, I have been reading"
+    "SOME GREAT BOOKS, I HAVE BEEN READING"
   ),
 
   talks: [
@@ -379,7 +379,7 @@ const talkSection = {
     },
     {
       title: "Effective Software EM",
-      subtitle: "Be the Leader Your Development Team Needs",
+      subtitle: "Be the leader your development team needs",
       slides_url: "https://www.amazon.de/-/en/Become-Effective-Software-Engineering-Manager/dp/1680507249"
     },
     {
