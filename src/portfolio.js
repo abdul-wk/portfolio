@@ -332,7 +332,7 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "Some blogs I've written to share my journey, lessons, and tips in software development.",
+    "Some blogs I've written to share my journey in software development.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
@@ -352,6 +352,12 @@ const blogSection = {
       title: "Streamlining Deployments",
       description:
           "How We Cut Infrastructure Costs by 31 % and Increased Deployment Speed with CI/CD Pipelines."
+    },
+    {
+      url: "https://medium.com/@wasaykhan.89/from-monolith-to-microservices-resolving-tech-conflicts-and-delivering-business-value-3db35b972022",
+      title: "From Monolith to Microservices",
+      description:
+          "Resolving Tech Conflicts and Delivering Business Value."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -360,21 +366,32 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "Reading List",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "Some great book, I have been reading"
   ),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Accelerate",
+      subtitle: "The science of lean software and devops",
+      slides_url: "https://bit.ly/saadpasta-slides"
+    },
+    {
+      title: "Effective Software EM",
+      subtitle: "Be the Leader Your Development Team Needs",
+      slides_url: "https://www.amazon.de/-/en/Become-Effective-Software-Engineering-Manager/dp/1680507249"
+    },
+    {
+      title: "First 90 Days",
+      subtitle: "Proven strategies for getting up to speed",
+      slides_url: "https://www.amazon.de/-/en/First-Days-Updated-Expanded-Straegies/dp/1422188612"
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
+
+
 
 // Podcast Section
 
