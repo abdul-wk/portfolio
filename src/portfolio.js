@@ -292,6 +292,13 @@ const bigProjects = {
           "efforts, and ensuring the platform’s scalability, reliability, and accessibility to meet diverse user needs.",
     },
     {
+      image: require("./assets/images/lorryz_logo.png"),
+      projectName: "Lorryz Transportation",
+      projectDesc: "Built a mobile and web-based transport logistics platform that optimized freight management and connected businesses with a vast network of carriers." +
+          " Led and maintained overall development, overseeing technical architecture, guiding development efforts, and ensuring the platform's efficiency, reliability, and " +
+          "scalability to support seamless operations across diverse logistics needs.",
+    },
+    {
       image: require("./assets/images/dnslogo.png"),
       projectName: "Domain Management System",
       projectDesc: "Led the development of a web and mobile platform with advanced features, including IP filtering and cloud DNS integration. Directed the design of the technical architecture, guided the team through implementation, and ensured seamless on-premise deployment to enhance performance, reliability, and security. Worked closely with cross-functional teams to optimize system scalability and deliver a robust, future-proof solution tailored to business and user needs.",
