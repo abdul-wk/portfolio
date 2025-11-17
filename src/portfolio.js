@@ -329,6 +329,17 @@ const achievementSection = {
           url: "https://www.credly.com/badges/858c0441-e0c9-4349-9782-8c399287ec21"
         }
       ]
+    },
+    {
+      title: "AWS Certified AI Practitioner",
+      image: require("./assets/images/aws-ai.png"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "Verify",
+          url: "https://www.credly.com/badges/ce71b5a9-ace7-49e1-b001-0f0ec508d2c3"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
