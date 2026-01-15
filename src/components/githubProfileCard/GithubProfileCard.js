@@ -21,7 +21,7 @@ export default function GithubProfileCard({prof}) {
               <p className="subTitle blog-subtitle">{contactInfo.subtitle}</p>
             </div>
             {<h2 className="bio-text"><i className="fas fa-phone"></i> +491609131948</h2>}
-            {<h2 className="bio-text"><i className="fas fa-envelope"></i> wasaykhan.89@gmail.com</h2>}
+            {<h2 className="bio-text"><i className="fas fa-envelope"></i> abdul.khan.wassay@gmail.com</h2>}
             {prof.location !== null && (
               <div className="location-div">
                 <span className="desc-prof">

@@ -33,9 +33,9 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/abdul-wk",
+  github: "https://github.com/aviv-abdulwasaykhan",
   linkedin: "https://www.linkedin.com/in/abdul-wasay-khan-70b50070/",
-  gmail: "wasaykhan.89@gmail.com",
+  gmail: "abdul.khan.wassay@gmail.com",
   // gitlab: "https://gitlab.com/saadpasta",
   // facebook: "https://www.facebook.com/abdul.wasay.35",
    medium: "https://medium.com/@wasaykhan.89",
@@ -186,20 +186,34 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+      {
+          role: "Engineering Manager",
+          company: "AVIV Group",
+          companylogo: require("./assets/images/aviv.png"),
+          date: "Nov 2025 – Present",
+          descBullets: [
+              "Spearheaded Auth0 identity solutions for 4 enterprise real-estate platforms, supporting over 10 million monthly\n" +
+              "logins with 99.9% system uptime.",
+              "Managed an engineering team of 8 for authentication systems handling 10 million+ monthly login events ensuring\n" +
+              "security and scalability.",
+              "Collaborated with product managers, Principal Engineer, and other stakeholders to define priorities and\n" +
+              "deliver business-critical solutions.",
+              "Maintained a hands-on approach, diving into technical details when necessary to support the team in tackling\n" +
+              "challenges effectively."
+          ]
+      },
     {
-      role: "Engineering Manager - Berlin",
+      role: "Engineering Manager",
       company: "Element Insurance",
       companylogo: require("./assets/images/Element.png"),
-      date: "Feb 2023 – Present",
+      date: "Feb 2023 – Oct 2025",
       descBullets: [
         "Managing a team of 8 software engineers on the development of 3 different domains",
         "Advocated for and implemented best practices such as event-driven architecture, ensuring scalable and\n" +
         "maintainable solutions.",
         "Automated the user flow, reducing operational manual efforts by 25%.",
-        "Collaborated with product managers, Principal Engineer, and other stakeholders to define priorities and\n" +
-        "deliver business-critical solutions.",
-        "Maintained a hands-on approach, diving into technical details when necessary to support the team in tackling\n" +
-        "challenges effectively."
+        "Improve system stability and operational efficiency by automating authentication workflows and monitoring,\n" +
+        "reducing manual intervention and operational overhead."
       ]
     },
     {
@@ -438,7 +452,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+4916091313948",
-  email_address: "wasaykhan.89@gmail.com"
+  email_address: "abdul.khan.wassay@gmail.com"
 };
 
 // Twitter Section
